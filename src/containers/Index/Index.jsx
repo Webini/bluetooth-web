@@ -57,7 +57,7 @@ class Index extends Component {
                     type="button" 
                     className="btn btn-outline-danger">
                     <LogOut className="icon" />
-                    Déconnecter
+                    Disconnect
                   </button>
                 }
                 <button 
