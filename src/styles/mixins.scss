@@ -1,0 +1,7 @@
+@mixin center-svg() {
+  position: relative;
+  height: 1em;
+  width: 1em;
+  bottom: -0.05em;
+  vertical-align: -0.125em;
+}

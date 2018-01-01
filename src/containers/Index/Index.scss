@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+.device-item {
+  padding-top: 1.5rem;
+  padding-bottom: 1.6rem;
+
+  border-bottom: 1px solid $gray-200;
+  
+  &:nth-child(even) {
+    background-color: $gray-50;
+  }
+
+  .device-name {
+    font-weight: bold;
+    line-height: 1.5;
+    .icon {
+      margin-left: 5px;
+      color: $secondary;
+    }
+  }
+
+  .actions {
+    margin-top: 1rem;
+    button {
+      margin-right: 1rem;
+
+      &:last-child {
+        margin-right: 0px;
+      }
+
+    }
+
+    .btn-loader {
+      margin-left: 1rem;
+      vertical-align: middle;
+      display: inline-block;
+
+      &.hidden { display: none }
+    }
+    
+    .icon {
+      margin-right: 5px;
+    }
+  }
+
+}

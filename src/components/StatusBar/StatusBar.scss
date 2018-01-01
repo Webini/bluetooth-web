@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.status-bar {
+  min-height: 80px;
+  color: $white;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f36d2b+0,f7923a+100 */
+  background: #f36d2b; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f36d2b 0%, #f7923a 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f36d2b 0%,#f7923a 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f36d2b 0%,#f7923a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  .content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .device-icon {
+    margin-left: 5px;
+  }
+
+  .connected {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  .device-name { 
+    font-weight: bold;
+  }
+
+}

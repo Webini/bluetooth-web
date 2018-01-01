@@ -1,0 +1,125 @@
+// Bootstrap Grid only
+//
+// Includes relevant variables and mixins for the regular (non-flexbox) grid
+// system, as well as the generated predefined classes (e.g., `.col-4-sm`).
+
+
+//
+// Variables
+//
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+
+$font-family-base: $font-family;
+
+$colors: (
+  blue: $blue
+);
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  white: $white,
+  shy: $gray-300
+); 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+);
+
+$line-height-base: 2;
+
+$h1-font-size: 3rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 2rem;
+$h4-font-size: 1.75rem;
+$h5-font-size: 1.5rem;
+$h6-font-size: 1.25rem;
+
+$body-bg: $body-background;
+$body-color: $gray-900;
+// $input-btn-border-width: 0px;
+
+$font-size: 1rem;
+$font-size-lg: $font-size;
+
+$border-radius:          .2rem;
+$border-radius-lg:       0.3rem;
+$border-radius-sm:       .2rem;
+
+/** links **/
+$link-hover-decoration: none;
+$link-color: $blue;
+
+/** forms **/
+$input-border-color: $gray-300;
+
+$input-btn-padding-x-lg:    1.5rem;
+$input-btn-line-height-lg:  2;
+
+$input-btn-padding-x:    1.25rem;
+
+
+/** buttons **/
+$btn-box-shadow:        $fat-shadow;
+$btn-box-hover-shadow:  $fat-shadow-hover;
+
+/** h1, h2... **/
+$headings-font-weight: 400;
+$headings-color: $gray-800;
+
+/** card **/
+$card-bg: $white;
+$card-border-width: 0px;
+$card-cap-bg: $gray-100;
+$card-box-shadow: $small-shadow;
+$card-border-radius: 0.35rem;
+
+/** dropdown **/
+$dropdown-border-color: $gray-400;
+
+/** tooltip **/
+$tooltip-padding-y:           5px;
+$tooltip-padding-x:           15px;
+$tooltip-arrow-width:         5px;
+$tooltip-arrow-height:        5px;
+$tooltip-max-width:           300px;
+
+/** modals **/
+
+$modal-content-border-width: 0px;
+$modal-header-border-width: 1px;
+$modal-footer-border-width: 1px;
+$modal-backdrop-bg: $gray-900;
+$modal-content-box-shadow-xs: $small-shadow;
+$modal-backdrop-opacity: 0.7;
+
+$modal-inner-padding:         2rem;
+$modal-dialog-margin:         .5rem !default;
+$modal-dialog-margin-y-sm-up: 1.75rem !default;
+
+//
+// mixins
+//
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+
+//custom
+$gutter-space: $grid-gutter-width / 2;
+$modal-content-box-shadow-sm-up: 0 5px 15px rgba($black,.5) !default;
+$modal-content-box-shadow-sm-up: $medium-shadow;
